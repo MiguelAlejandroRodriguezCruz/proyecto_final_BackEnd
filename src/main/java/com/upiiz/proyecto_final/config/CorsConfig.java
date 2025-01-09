@@ -15,7 +15,9 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**") // Permite todos los endpoints
                         .allowedOrigins("http://localhost:8081", "http://localhost:4200",
-                                "https://proyecto-final-front-end-sooty.vercel.app") // Cambia según tus
+                                "https://proyecto-final-front-end-sooty.vercel.app",
+                                "https://proyecto-final-front-end-sooty.vercel.app/login",
+                                "https://proyecto-final-front-end-sooty.vercel.app/returns") // Cambia según tus
                         // necesidades
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
