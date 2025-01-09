@@ -14,8 +14,9 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**") // Permite todos los endpoints
-                        .allowedOrigins("http://localhost:8081", "http://localhost:4200") // Cambia según tus
-                                                                                          // necesidades
+                        .allowedOrigins("http://localhost:8081", "http://localhost:4200",
+                                "https://proyecto-final-front-end-sooty.vercel.app") // Cambia según tus
+                        // necesidades
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
