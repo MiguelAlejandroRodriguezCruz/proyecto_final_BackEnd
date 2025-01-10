@@ -15,7 +15,7 @@ import java.util.Optional;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 
-@CrossOrigin(origins = "https://proyecto-final-front-end-amber.vercel.app", methods = {
+@CrossOrigin(origins = { "https://proyecto-final-front-end-amber.vercel.app", "http://localhost:4200" }, methods = {
         RequestMethod.GET,
         RequestMethod.POST,
         RequestMethod.PUT,
