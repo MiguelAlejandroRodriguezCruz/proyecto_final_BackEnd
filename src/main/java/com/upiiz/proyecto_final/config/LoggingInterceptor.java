@@ -16,6 +16,7 @@ public class LoggingInterceptor implements HandlerInterceptor {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) {
         String origin = request.getHeader("Origin");
         logger.info("Request from origin: {}", origin);
+        System.out.println("Request from origin: " + origin); // Print to console as well
         return true;
     }
 }
