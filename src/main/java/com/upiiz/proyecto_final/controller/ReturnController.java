@@ -15,7 +15,6 @@ import java.util.Optional;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 
-@CrossOrigin
 @RestController
 @RequestMapping("/api/v1/return")
 public class ReturnController {
