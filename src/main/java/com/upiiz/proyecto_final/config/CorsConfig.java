@@ -16,8 +16,14 @@ public class CorsConfig {
                 registry.addMapping("/**") // Permite todos los endpoints
                         .allowedOrigins("http://localhost:8081", "http://localhost:4200",
                                 "https://proyecto-final-front-end-amber.vercel.app",
-                                "https://proyecto-final-front-end-amber.vercel.app/login",
-                                "https://proyecto-final-front-end-amber.vercel.app/returns") // Cambia según tus
+                                "https://proyecto-final-front-end-amber.vercel.app/",
+                                "https://proyecto-final-front-end-amber.vercel.app/returns",
+                                "https://vercel.com/miguelalejandrorodriguezcruzs-projects/proyecto-final-front-end/Gt6o9ApdWAP6VYRQuXafkHXQzbJs",
+                                "https://proyecto-fina-git-756105-miguelalejandrorodriguezcruzs-projects.vercel.app/",
+                                "https://proyecto-final-frente-fywtwtie0.vercel.app",
+                                "https://proyecto-final-front-end-miguelalejandrorodriguezcruzs-projects.vercel.app/") // Cambia
+                                                                                                                       // según
+                                                                                                                       // tus
                         // necesidades
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
