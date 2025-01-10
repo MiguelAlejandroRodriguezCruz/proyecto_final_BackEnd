@@ -58,7 +58,7 @@ public class SecurityConfig {
                     http.requestMatchers(HttpMethod.DELETE, "/api/v1/return/eliminar/{id}").hasAuthority("DELETE");
 
                     // Configurar el resto de endpoints - Requiere autenticación
-                    http.anyRequest().permitAll();
+                    http.anyRequest().authenticated();
                 })
                 .build();
     }
