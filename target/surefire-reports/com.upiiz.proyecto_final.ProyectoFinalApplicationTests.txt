@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.upiiz.proyecto_final.ProyectoFinalApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.92 s -- in com.upiiz.proyecto_final.ProyectoFinalApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 29.15 s -- in com.upiiz.proyecto_final.ProyectoFinalApplicationTests

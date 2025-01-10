@@ -1,6 +1,8 @@
 P:\UPIIZ\UPIIZ_7semestre\AplicacionesWeb\proyecto_final\src\main\java\com\upiiz\proyecto_final\config\CorsConfig.java
+P:\UPIIZ\UPIIZ_7semestre\AplicacionesWeb\proyecto_final\src\main\java\com\upiiz\proyecto_final\config\LoggingInterceptor.java
 P:\UPIIZ\UPIIZ_7semestre\AplicacionesWeb\proyecto_final\src\main\java\com\upiiz\proyecto_final\config\OpenApiConfiguration.java
 P:\UPIIZ\UPIIZ_7semestre\AplicacionesWeb\proyecto_final\src\main\java\com\upiiz\proyecto_final\config\SecurityConfig.java
+P:\UPIIZ\UPIIZ_7semestre\AplicacionesWeb\proyecto_final\src\main\java\com\upiiz\proyecto_final\config\WebConfig.java
 P:\UPIIZ\UPIIZ_7semestre\AplicacionesWeb\proyecto_final\src\main\java\com\upiiz\proyecto_final\controller\ReturnController.java
 P:\UPIIZ\UPIIZ_7semestre\AplicacionesWeb\proyecto_final\src\main\java\com\upiiz\proyecto_final\dto\CustomResponse.java
 P:\UPIIZ\UPIIZ_7semestre\AplicacionesWeb\proyecto_final\src\main\java\com\upiiz\proyecto_final\dto\LoginResponseDTO.java
