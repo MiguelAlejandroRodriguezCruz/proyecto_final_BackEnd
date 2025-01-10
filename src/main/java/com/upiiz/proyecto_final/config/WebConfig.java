@@ -21,6 +21,7 @@ public class WebConfig implements WebMvcConfigurer {
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
+        config.setAllowedOrigins(List.of("http://localhost:4200"));
         config.setAllowedOrigins(List.of("https://proyecto-final-front-end-amber.vercel.app"));
         config.setAllowedOrigins(List.of("https://proyecto-final-frente-fywtwtie0.vercel.app"));
         config.setAllowedOrigins(List.of(
